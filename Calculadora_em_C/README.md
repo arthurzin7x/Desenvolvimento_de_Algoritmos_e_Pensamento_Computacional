@@ -1,9 +1,13 @@
 "Calculadora Completa em C"
 
 -Identificação do Estudante 
+
 -Nome do Estudante:Arthur da Silva Rodrigues 
+
 -Curso:ADS- analise e desenvolvimento de sistemas 
+
 -Disciplina:Desenvolvimento de Algoritmos e Pensamento Computacional
+
 -Instituição:UDF
 
 
