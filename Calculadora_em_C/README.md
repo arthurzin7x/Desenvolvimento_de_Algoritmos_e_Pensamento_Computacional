@@ -20,14 +20,21 @@ Este projeto consiste no desenvolvimento de uma calculadora interativa escrita n
 -Objetivo da Calculadora
 O objetivo principal desta aplicação é disponibilizar uma ferramenta abrangente e fácil de usar para a realização de operações aritméticas básicas, cálculos avançados, funções trigonométricas e estatísticas simples. Além disso, busca demonstrar o uso de boas práticas de programação em C, tais como divisão do código em funções reutilizáveis, tratamento básico de erros de entrada e interface amigável via menu interativo.
 
----
+
+
 
 -Funcionalidades Implementadas
+
 -Operações Básicas: Adição, subtração, multiplicação, divisão e resto da divisão (módulo).
+
 -Operações Avançadas: Potenciação, raiz quadrada, fatorial e cálculo de porcentagem.
+
 -Funções Trigonométricas:Seno, cosseno, tangente e conversões de unidades (graus para radianos).
+
 -Cálculos Logarítmicos e Esféricos: Logaritmo natural (base *e*), logaritmo na base 10 e cálculo de valor absoluto.
+
 -Análise Estatística e Utilitários: Média aritmética de dois números, cálculo de quadrado, cubo e inverso de um número ($1/x$).
+
 -Menu Interativo Continuo: O usuário pode realizar múltiplos cálculos sem precisar reiniciar o programa.
 
 
@@ -37,24 +44,43 @@ O objetivo principal desta aplicação é disponibilizar uma ferramenta abrangen
 Abaixo está a lista detalhada das 20 funções que compõem o núcleo de cálculos do sistema:
 
 1. `somar(float a, float b)`: Retorna a soma de dois números ($a + b$).
+
 2. `subtrair(float a, float b)`: Retorna a diferença entre dois números ($a - b$).
+
 3. `multiplicar(float a, float b)`: Retorna o produto de dois números ($a \times b$).
+
 4. `dividir(float a, float b)`: Realiza a divisão ($a / b$), tratando a divisão por zero.
+
 5. `resto_divisao(int a, int b)`: Retorna o resto da divisão inteira ($a \pmod b$).
+
 6. `potencia(double base, double expoente)`: Calcula a potência de um número ($base^{expoente}$).
+
 7. `raiz_quadrada(double num)`: Retorna a raiz quadrada ($\sqrt{x}$), validando entradas não negativas.
+
 8. `fatorial(int n)`: Calcula o fatorial de um número inteiro não negativo ($n!$).
+
 9. `porcentagem(float total, float percentual)`: Calcula uma porcentagem relativa sobre um valor total.
+
 10. `calcular_seno(double angulo_graus)`: Converte o ângulo para radianos e calcula o seno.
+
 11. `calcular_cosseno(double angulo_graus)`: Converte o ângulo para radianos e calcula o cosseno.
+
 12. `calcular_tangente(double angulo_graus)`: Converte o ângulo para radianos e calcula a tangente.
+
 13. `logaritmo_natural(double num)`: Retorna o logaritmo natural ($\ln(x)$) para $x > 0$.
+
 14. `logaritmo_base10(double num)`: Retorna o logaritmo na base 10 ($\log_{10}(x)$) para $x > 0$.
+
 15. `valor_absoluto(double num)`: Retorna o valor absoluto/módulo de um número ($\vert{}x\vert{}$).
+
 16. `calcular_quadrado(double num)`: Retorna o número elevado ao quadrado ($x^2$).
+
 17. `calcular_cubo(double num)`: Retorna o número elevado ao cubo ($x^3$).
+
 18. `inverso_numero(double num)`: Retorna o inverso multiplicativo de um número ($1/x$).
+
 19. `media_dois_numeros(float a, float b)`: Calcula a média aritmética simples de dois valores.
+
 20. `graus_para_radianos(double graus)`: Função auxiliar para converter ângulos em graus para radianos ($\text{rad} = \text{graus} \times \frac{\pi}{180}$).
 
 
@@ -69,8 +95,11 @@ Abaixo está a lista detalhada das 20 funções que compõem o núcleo de cálcu
 -Organização do Código
 O código-fonte foi estruturado de forma **modular e organizada**, dividindo responsabilidades de maneira clara:
 
+
 -Declaração e Protótipos:-No início do arquivo `calculadora.c`, são declarados os protótipos de todas as 20 funções para garantir que o compilador reconheça suas assinaturas.
+
 -Função Principal (`main`): Atua como o ponto de controle do programa. Ela contém o laço principal de repetição que exibe o menu, captura a opção escolhida pelo usuário e chama as funções correspondentes.
+
 -Implementação das Funções: Todas as 20 funções estão implementadas abaixo do `main()`, mantendo a leitura limpa e de fácil manutenção.
 
 
