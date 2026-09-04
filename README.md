@@ -1,1 +1,0 @@
-# Desenvolvimento_de_Algoritmos_e_Pensamento_Computacional
