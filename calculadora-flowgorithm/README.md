@@ -1,5 +1,7 @@
 ATIVIDADE: "Calculadora Multiuso em Flowgorithm"
+
 Disciplina: Desenvolvimento de Algoritmos e Pensamento Computacional  
+
 Aluno:Arthur da Silva Rodrigues 
 
 #Repositório: desenvolvimento-de-algoritmo-e-pensamento-computacional  
