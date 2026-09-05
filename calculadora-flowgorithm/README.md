@@ -1,29 +1,24 @@
-ATIVIDADE: "Calculadora Multiuso em Flowgorithm"
+# Atividade: Calculadora Multiuso em Flowgorithm
+**Disciplina:** Desenvolvimento de Algoritmos e Pensamento Computacional  
+**Aluno:** Arthur da Silva Rodrigues  
 
-Disciplina: Desenvolvimento de Algoritmos e Pensamento Computacional  
+**Repositório:** Desenvolvimento_de_Algoritmos_e_Pensamento_Computacional  
+**Pasta do projeto:** calculadora-algoritmo de fluxo  
+**Arquivo principal:** calculadora.fprg  
 
-Aluno:Arthur da Silva Rodrigues 
+---
 
-
-
-
-#Repositório: desenvolvimento-de-algoritmo-e-pensamento-computacional  
-Pasta do projeto: calculadora-flowgorithm  
-Arquivo principal:calculadora.fprg  
-
-
-
-#Objetivo
+## Objetivo
 O objetivo deste trabalho é praticar lógica de programação e criar um programa no Flowgorithm usando estruturas de decisão (Se/Senão). Desenvolvi uma calculadora interativa que resolve 20 tipos de cálculos diferentes (matemática básica, porcentagens, médias e geometria) de acordo com o que o usuário escolher no menu.
 
+---
 
-
-#Como funciona
+## Como funciona
 Quando você roda o programa, aparece uma lista na tela com 20 opções. O usuário escolhe o número da conta que quer fazer e digita os valores. O programa usa os blocos de "Se/Senão" para achar a operação certa, faz a conta e mostra o resultado direto na tela.
 
+---
 
-
-#Lista das 20 Funções
+## Lista das 20 Funções
 
 1. **Soma:** Soma de dois números (A + B).
 2. **Subtração:** Subtração de dois números (A - B).
@@ -46,19 +41,19 @@ Quando você roda o programa, aparece uma lista na tela com 20 opções. O usuá
 19. **Regra de Três:** Resolve uma regra de três simples.
 20. **Módulo:** Transforma número negativo em positivo.
 
+---
 
+## Destaques das Funções Obrigatórias
 
-#Destaques das Funções Obrigatórias
+* **Cálculo de IMC (Opção 18):** Calcula o Índice de Massa Corporal dividindo o peso pela altura ao quadrado.
+* **Áreas Geométricas:**
+  * **Área do Círculo (Opção 16):** Calcula a área do círculo multiplicando o raio ao quadrado por PI.
+  * **Área do Retângulo (Opções 11 e 17):** Calcula a área multiplicando a base pela altura.
+  * **Área do Triângulo (Opção 12):** Calcula a área multiplicando a base pela altura e dividindo por 2.
 
-* Cálculo de IMC (Opção 18): Calcula o Índice de Massa Corporal dividindo o peso pela altura ao quadrado.
-* Áreas Geométricas:
-* Área do Círculo (Opção 16):Calcula a área da circunferência pelo raio.
-* Área do Retângulo (Opções 11 e 17): Calcula a área multiplicando a base pela altura.
-* Área do Triângulo (Opção 12): Calcula a área da base vezes a altura dividido por 2.
+---
 
-
-
-#Como rodar o programa
+## Como rodar o programa
 
 1. Baixe e abra o programa **Flowgorithm** no computador.
 2. Abra o arquivo `calculadora.fprg`.
