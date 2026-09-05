@@ -4,6 +4,9 @@ Disciplina: Desenvolvimento de Algoritmos e Pensamento Computacional
 
 Aluno:Arthur da Silva Rodrigues 
 
+
+
+
 #Repositório: desenvolvimento-de-algoritmo-e-pensamento-computacional  
 Pasta do projeto: calculadora-flowgorithm  
 Arquivo principal:calculadora.fprg  
